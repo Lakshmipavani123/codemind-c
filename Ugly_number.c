@@ -9,26 +9,23 @@ int main()
         {
             n/=5;
         }
-       else if(n%3==0)
+        else if(n%3==0)
         {
             n/=3;
         }
-       else if(n%2==0)
+        else if(n%2==0)
         {
             n/=2;
         }
-       else
-       {
-        printf("Not Ugly Number");
-        x=1;
-        break;
+        else
+        {
+            printf("Not Ugly Number");
+            x=1;
+            break;
         }
     }
     if(x==0)
     {
         printf("Ugly Number");
     }
-    return 0;
-    
-    
 }
