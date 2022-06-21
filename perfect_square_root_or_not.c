@@ -2,8 +2,7 @@
 #include<math.h>
 int main()
 {
-    int n;
-    int i;
+    int n,i;
     float f;
     scanf("%d",&n);
     f=sqrt(n);
